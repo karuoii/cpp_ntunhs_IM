@@ -12,9 +12,11 @@ int main(){
     getline(cin,number);
     cout<<"請輸入你的名字：";
     getline(cin,name);
-    cout<<"你的班級是："<<classname<<endl;
-    cout<<"你的學號是："<<number<<endl;
-    cout<<"你的名字是："<<name<<endl;
+    
+    cout<<"\n輸入的資料如下："<<endl;
+    cout<<"班級："<<classname<<endl;
+    cout<<"學號："<<number<<endl;
+    cout<<"名字："<<name<<endl;
     
     return 0;
 }
